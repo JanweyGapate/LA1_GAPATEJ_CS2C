@@ -1,0 +1,39 @@
+# LA1_GAPATEJ_CS2C
+activity1.js
+let fNameper1 ="Maria";
+let mNameper1="Delos Santos";
+let lNameper1 ="LasMarias";
+let ageper1 = 25;
+let addressper1 = "Upper Session Road,Baguio City,Buenget";
+
+let fNameper2 =" Juan";
+let mNameper2 = "Gamoso";
+let lNameper2 ="Dela Cruz";
+let ageper2 = 28;
+let addressper2= "San Nicilas,Candon City,Ilocos Sur";
+let fullName =fNameper1 + mNameper1 + lNameper1+fNameper2+ mNameper2+ lNameper2 ;
+
+console.log(fNameper1)
+console.log(mNameper1)
+console.log(lNameper1)
+console.log(ageper1)
+console.log(addressper1)
+
+
+console.log(fNameper2)
+console.log(mNameper2)
+console.log(lNameper2)
+console.log(fullName)
+
+
+let splitArray = fullName.split("");
+console.log(splitArray)
+
+//lengrh
+console.log(fNameper1.length)
+console.log(fNameper2.length)
+console.log(addressper1.length)
+console.log(addressper2.length)
+
+
+console.log(ageper1 + ageper2 - fNameper2.length ** addressper2.length)
